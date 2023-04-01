@@ -12,9 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Lista de tarefas',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(),
       home: HomeScreen(),
     );
   }

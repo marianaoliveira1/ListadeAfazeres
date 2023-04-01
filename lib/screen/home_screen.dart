@@ -10,6 +10,13 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Lista de Tarefas"),
+      ),
+      body: Text("Conteudo"),
+      floatingActionButton:
+          FloatingActionButton(child: Text("w"), onPressed: () {}),
+    );
   }
 }
